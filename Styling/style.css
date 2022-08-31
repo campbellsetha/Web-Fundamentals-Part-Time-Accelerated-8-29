@@ -1,0 +1,26 @@
+h1{
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.cloud-text{
+    color: aqua;
+}
+h2{
+    background-color: purple;
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-weight: normal;
+}
+h3{
+    background-color: skyblue;
+    text-decoration: underline;
+    font-family: sans-serif;
+    text-align: right;
+    font-weight: light;
+    color: black;
+}
