@@ -1,0 +1,24 @@
+#search{
+    width: 125px;
+    height: 30px;
+    border-radius: 15px;
+    color: teal;
+    background-color: whitesmoke;
+    border: 2px solid teal;
+}
+#add{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    border: 5px aquamarine;
+    color: whitesmoke;
+}
+#new_account{
+    width: 200px;
+    height: 40px;
+    box-shadow: 10px, 10px, 10px, black;
+    border: 3px black;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+}
