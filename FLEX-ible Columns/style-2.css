@@ -1,0 +1,22 @@
+.row {
+    width:1000px;
+    height: 500px;
+    margin: 0px auto;
+    background-color: gold;
+    display: flex;
+    align-items: center;
+}
+
+.col {
+    background-color: violet;
+    text-align: center;
+    border: 2px solid black;
+    flex: 1;
+}
+
+.col-2 {
+    background-color: violet;
+    text-align: center;
+    border: 2px solid black;
+    flex: 2;
+}
