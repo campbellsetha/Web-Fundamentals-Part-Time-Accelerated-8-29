@@ -1,0 +1,197 @@
+.nav {
+    height: 55px;
+    width: auto;
+    margin: 0 0 10 0 auto;
+    padding: 15px 400px 5px 400px;
+    background-color: Black;
+    color: white;
+    display: block;
+    align-content: center;
+}
+
+.nav h1 {
+    font-size: 38px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    margin: 0;
+    float: left;
+}
+
+.nav h2 {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    float: left;
+}
+
+.nav a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#signout {
+    height: 35px;
+    width: 100px;
+    background-color: aqua;
+    color:black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: right;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.content {
+    width: auto;
+    height: auto;
+}
+
+.card {
+    height: 380px;
+    width: 700px;
+    background: linear-gradient(
+        to bottom,
+        aqua 0%,
+        aqua 15%,
+        white 15%,
+        white 100%
+    );
+    color: black;
+    padding: 15px;
+    border: 2px solid silver;
+}
+
+h1 {
+    text-align: left;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+img {
+    border-radius: 50%;
+    max-height: 100%;
+    max-width: auto;
+}
+
+#photo {
+    height: 100px;
+}
+
+#name {
+    height: 50px;
+    width: auto;
+}
+
+#location {
+    height: 25px;
+}
+
+#about {
+    height: 130px;
+}
+
+p {
+    margin: 0;
+}
+
+#settings {
+    height: 25px;
+}
+
+.education {
+    width: 700px;
+    height: auto;
+    padding: 15px;
+    color: black;
+    margin-top: 15px;
+    border: 2px solid silver;
+}
+
+#ed_heading {
+    background-color: aqua;
+    height: auto;
+    margin: -15px 0px 0px -15px;
+    padding: 15px;
+    width: 700px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.education h1 {
+    font-size: medium;
+}
+
+.education h3 {
+    font-size: x-small;
+    color: gray;
+    margin-top: 0;
+}
+
+.education p{
+    font-size: small;
+}
+
+.sidebar {
+    height: auto;
+    width: 250px;
+    margin-left: 15px;
+}
+
+#req_heading {
+    background-color: aqua;
+    font-size: 20px;
+    text-align: center;
+    margin: -10px;
+    border: none;
+}
+
+.request {
+    height: 125px;
+    width: 250px;
+    border: 2px solid silver;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.connection {
+    height: 270px;
+    width: 250px;
+    border: 2px solid silver;
+    padding: 10px;
+}
+
+#con_heading {
+    background-color: aqua;
+    font-size: 20px;
+    text-align: center;
+    margin: -10px; 
+}
+
+.sidebar table{
+    border-collapse: collapse;
+    font-size: 20px;
+    margin: 20px 0px 5px 0px;
+}
+
+.sidebar td {
+    height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 7px 7px 5px 7px;
+}
+
+
+
+
+
