@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <h1>Dojonary</h1>
+            <input type="search" id="search" placeholder="Search">
+            <button type="button" id="login" onclick="login(this)">Login</button>
+        </div>
+        <div class="main">
+            <div class="definitions">
+                <div class="def-1">
+                    <div id="wrd-1">
+                        <h2>ninja</h2>
+                        <h4>noun</h4>
+                        <h3>Plural: <em>ninjas</em></h3>
+                        <button type="button" id="lk_1" onclick="alert('Ninja was liked')">13 likes</button>
+                    </div>
+                    <div id="def-1">
+                        <p>A practitioner skilled in the <a href="hyperlink">Japanese</a> art of 
+                        <a href="hyperlink">ninjutsu</a>.</p>
+                    </div>
+                </div>
+                <div class="def-2">
+                    <div id="wrd-2">
+                        <h2>ninja</h2>
+                        <h4>noun</h4>
+                        <h3>Plural: <em>ninjas</em></h3>
+                        <button type="button" id="lk_2" onclick="alert('Ninja was liked')">37 likes</button>
+                    </div>
+                    <div id="def-2">
+                        <p>A <a href="hyperlink">programer</a> who breaks down problems</p> 
+                        <p>with <a href="hyperlink">zen</a>-like focus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="add">
+                <h2>Dojonary is defined by YOU</h2>
+                <button type="button" id="adbtn" onclick="hide(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

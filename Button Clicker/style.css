@@ -1,0 +1,114 @@
+.container {
+    width: 1000px;
+    margin: auto;
+    align-content: center;
+    height: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+    height: 60px;
+    background-color: lightslategray;
+    color: black;
+    margin-bottom: 15px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#login {
+    height: 30px;
+    width: 60px;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px black ;
+    text-align: center;
+}
+
+#search {
+    width: 600px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.definitions {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+}
+
+.def-1, .def-2 {
+    display:flex;
+    align-items: center;
+    height:auto;
+    width: auto;
+    border: 2px solid black;
+    margin: 0px 0px 15px 0px;
+    padding: 15px;
+}
+
+#def-1, #def-2 {
+padding-left: 60px;
+text-align: center;
+align-items: center;
+}
+
+
+#lk_1, #lk_2 {
+    height: 40px;
+    width: 80px;
+    background-color: gold;
+    color: black;
+    font-size: medium;
+    font-weight: 200;
+    box-shadow: 5px 5px 5px black;
+    border: 1px solid black;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+h4 {
+    margin: 0px;
+    color: gray;
+}
+
+p {
+    margin: 0;
+}
+
+.add {
+    width: 310px;
+    height: 135px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+#adbtn {
+    width: 280px;
+    height: auto;
+    font-size: 24px;
+    padding: 5px;
+    background-color: palegreen;
+    color: black;
+    margin: 15px;
+}
+
