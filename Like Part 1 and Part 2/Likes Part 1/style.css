@@ -1,0 +1,22 @@
+.user {
+    margin: 100px;
+    padding: 15px;
+    height: 150px;
+    width: 300px;
+    border: 2px solid black;
+}
+
+h1{
+    font-size: 24px;
+}
+
+#btn {
+    width: 75px;
+    height: 30px;
+    background-color: goldenrod;
+    color: black;
+    text-align: center;
+    border: 1px, solid black;
+    box-shadow: 4px 4px 4px black;
+    font-size: 18px;
+}
